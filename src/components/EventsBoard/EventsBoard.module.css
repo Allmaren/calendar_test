@@ -1,0 +1,7 @@
+.eventBoard {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+}

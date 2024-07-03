@@ -1,16 +1,12 @@
+import { PageTitle } from './PageTitle/PageTitle';
+import { EventBoard } from './EventsBoard/EventBoard';
+import upcomingEvents from './data/data';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <PageTitle text="Calendar" />
+      <EventBoard events={upcomingEvents} />
     </div>
   );
 };
